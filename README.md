@@ -1,17 +1,15 @@
 # ember-clean-project
 
-This README outlines the details of collaborating on this Ember addon.
+An ember addon to find unused components, css classes etc.
 
 ## Installation
 
-* `git clone <repository-url>` this repository
-* `cd ember-clean-project`
-* `npm install`
+    ember install ember-clean-project
 
 ## Running
 
-* `ember serve`
-* Visit your app at [http://localhost:4200](http://localhost:4200).
+* `ember clear:components`
+* `ember clear:css`
 
 ## Running Tests
 
@@ -19,9 +17,4 @@ This README outlines the details of collaborating on this Ember addon.
 * `ember test`
 * `ember test --server`
 
-## Building
-
-* `ember build`
-
 For more information on using ember-cli, visit [https://ember-cli.com/](https://ember-cli.com/).
-"# ember-clean-project" 
