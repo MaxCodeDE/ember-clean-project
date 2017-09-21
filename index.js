@@ -15,7 +15,7 @@ module.exports = {
                 }
             },
             cleanCssCommand: {
-                name: 'clean:css',
+                name: 'clear:css',
                 description: 'A test command that says hello',
                 availableOptions: [{
                     name: 'format',
