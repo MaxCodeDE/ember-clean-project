@@ -2,6 +2,7 @@
 'use strict';
 
 const component = require('./lib/components');
+const config = require('./lib/config');
 
 module.exports = {
     name: 'ember-clean-project',
@@ -11,6 +12,7 @@ module.exports = {
                 name: 'clear:components',
                 description: 'Shows unused components',
                 run: function(commandOptions, rawArgs) {
+                    
                     component.clearComponents();
                 }
             },
