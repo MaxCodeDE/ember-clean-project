@@ -12,7 +12,7 @@ module.exports = {
                 name: 'clear:components',
                 description: 'Shows unused components',
                 run: function(commandOptions, rawArgs) {
-                    
+                    config.createConfig();
                     component.clearComponents();
                 }
             },
