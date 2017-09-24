@@ -13,7 +13,7 @@ module.exports = {
                 description: 'Shows unused components',
                 run: function(commandOptions, rawArgs) {
                     config.createConfig();
-                    component.clearComponents();
+                    component.clearComponents(config);
                 }
             },
             cleanCssCommand: {
