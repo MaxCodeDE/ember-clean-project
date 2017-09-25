@@ -13,7 +13,7 @@ ember clear:components
 ```
 
 You can add folowing parameters:
-- `--force-delete` - Deletes the unused components, but copies a backup in /ember-clean-project/ folder (default: false)
+- `--force-delete` - Deletes the unused components, but copies a backup in /ember-clean-project/backup-components folder (default: false)
 
 ## Config
 
