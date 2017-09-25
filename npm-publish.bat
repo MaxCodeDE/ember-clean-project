@@ -1,1 +1,0 @@
-npm publish ember-clean-project
