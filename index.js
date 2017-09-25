@@ -12,8 +12,9 @@ module.exports = {
                 name: 'clear:components',
                 description: 'Shows unused components',
                 run: function(commandOptions, rawArgs) {
+                    console.log('TEST ' + commandOptions.forceDelete);
                     config.createConfig();
-                    component.clearComponents(config);
+                    component.clearComponents(config, commandOptions.forceDelete);
                 }
             },
             cleanCssCommand: {
