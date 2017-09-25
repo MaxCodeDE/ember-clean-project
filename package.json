@@ -1,7 +1,7 @@
 {
   "name": "ember-clean-project",
-  "version": "0.0.2",
-  "description": "The default blueprint for ember-cli addons.",
+  "version": "1.0.0",
+  "description": "An ember addon to find unused components, css classes etc.",
   "keywords": [
     "ember-addon"
   ],
