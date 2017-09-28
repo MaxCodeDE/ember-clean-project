@@ -1,17 +1,17 @@
 {
   "name": "ember-clean-project",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An ember addon to find unused components, css classes etc.",
   "keywords": [
     "ember-addon"
   ],
   "license": "MIT",
-  "author": "",
+  "author": "MaxCode",
   "directories": {
     "doc": "doc",
     "test": "tests"
   },
-  "repository": "",
+  "repository": "MaxCodeDE/ember-clean-project",
   "scripts": {
     "build": "ember build",
     "start": "ember server",
